@@ -3,116 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eventora | Virtual Event Planning</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <title>My Website</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
 </head>
 
 <body>
-<header>
 
-    <nav>
+   
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
 
-        <div class="logo">EVENTORA</div>
+            <a class="navbar-brand" href="index.html">My Website</a>
 
-        <ul id="menu">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#venues">Venues</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
 
-        <div class="menu-btn" id="menu-btn">
-            ☰
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+
+                </ul>
+            </div>
+
         </div>
-
     </nav>
 
-</header>
-<section class="hero" id="home">
+   
+    <div class="container text-center mt-5">
 
-    <div class="hero-content">
+        <h1>Welcome to My Website</h1>
 
-        <h1>Plan Your Dream Event With Eventora</h1>
-
-        <p>
-            Weddings • Birthdays • Corporate Events • Debuts • Parties
+        <p class="lead">
+            Discover our amazing products and learn more about us.
         </p>
 
-        <a href="#venues" class="btn">
-            Explore Venues
-        </a>
+        <a href="gallery.html" class="btn btn-success mt-3">
+                 Get Started
+         </a>
 
     </div>
 
-</section>
 
-        <section class="featured" id="venues">
-
-    <h2>Featured Venues</h2>
-
-    <div class="cards">
-
-        <div class="card">
-
-    <img src="images/Grandballroom venue.png" alt="Grandballroom">
-
-    <h3>Grandballroom</h3>
-
-    <p>
-        Elegant venue perfect for weddings, receptions,
-        anniversaries, and grand celebrations.
-    </p>
-
-</div>
-
-<div class="card">
-
-    <img src="images/Garden venue.png" alt="Garden venue">
-
-    <h3>Garden venue</h3>
-
-    <p>
-        Beautiful outdoor venue surrounded by nature and colorful gardens.
-    </p>
-
-</div>
-
-<div class="card">
-
-    <img src="images/Luxury Hotel venue.png" alt="Luxury Hotel">
-
-    <h3>Luxury Hotel</h3>
-
-    <p>
-        Premium hotel venue ideal for corporate events,
-        conferences, and elegant parties.
-    </p>
-
-</div>
-
-<div class="card">
-
-    <img src="images/beach venue.jpg" alt="Beach Venue">
-
-    <h3>Beach Venue</h3>
-
-    <p>
-        Celebrate beside the sea with a romantic sunset
-        and unforgettable ocean view.
-    </p>
-
-    </div>
-</section>
-
-<script src="js/script.js"></script>
-<footer>
-    <p></p>
-</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
